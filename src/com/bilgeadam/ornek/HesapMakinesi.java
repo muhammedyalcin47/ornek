@@ -2,8 +2,18 @@ package com.bilgeadam.ornek;
 
 public class HesapMakinesi {
 
+    // method overloading
+    // aynı isimli metod tanımlıyoruz, paremetre sayısı ya da veri tipleri farklı
+
     public int topla(int sayi1, int sayi2)
     {
+        System.out.println("int topla çalıştı");
+        return sayi1+sayi2;
+    }
+    public double topla(double sayi1, double sayi2)
+
+    {
+        System.out.println("double topla çalıştı");
         return sayi1+sayi2;
     }
 
@@ -34,6 +44,10 @@ public class HesapMakinesi {
         int sonuc = hm.topla(9,14);
 
         System.out.println("sonuc:" + sonuc);
+
+        System.out.println("---------------------------------");
+        System.out.println(hm.topla(7.1, 5.6));
+
     }
 
 }

@@ -7,6 +7,10 @@ public class Kisi {
     private String soyad;
     private double maas;
 
+    // constructor overloading
+    // obje oluştururken hangi constructor uyuyorsa, onu çalıştırıyor.
+
+
     public Kisi() {
     }
 
